@@ -14,7 +14,7 @@ import { ArrowUp } from 'lucide-react';
 export default function Home() {
 	// const yearsOfExperience = new Date().getFullYear() - 2018; // Example: calculate from start year
 	const currentProject = "Fintech SaaS Platform"; // Replace with your actual project
-	const RESUME_URL = process.env.REACT_APP_RESUME_URL || 'https://drive.google.com/file/d/1Y-6BRPiZNEgrYiuI_x7QxxPtxe7XwwrB/view?usp=drive_link ';
+	const RESUME_URL = process.env.REACT_APP_RESUME_URL || 'https://drive.google.com/file/d/1C29nBdgqL9Eu7R3q0MHT3aCO6igE3Yoe/view?usp=drive_link';
 
 	const roles = ["Software Developer", "Full-Stack Engineer"];
 	const [roleIndex, setRoleIndex] = useState(0);
