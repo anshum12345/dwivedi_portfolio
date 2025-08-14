@@ -7,7 +7,7 @@ export default function About() {
             <Section eyebrow="About" title="Who I am">
                 <div className="prose prose-slate dark:prose-invert max-w-none">
                     <p>
-                        I’m a creative frontend engineer focused on building expressive products with a strong
+                        I’m a creative full-stack engineer focused on building expressive products with a strong
                         foundation in performance, accessibility, and motion. I blend design thinking with code to
                         craft delightful, functional experiences.
                     </p>
