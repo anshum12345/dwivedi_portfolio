@@ -19,7 +19,7 @@ function SpinningTorus() {
 
 export default function Hero3D() {
     return (
-        <div className="w-full h-[420px] sm:h-[520px] rounded-2xl overflow-hidden">
+        <div className="w-full mx-auto max-w-md sm:max-w-lg md:max-w-none h-[360px] sm:h-[480px] md:h-[520px] rounded-2xl overflow-hidden">
             <Canvas shadows camera={{ position: [0, 0, 6], fov: 45 }}>
                 <ambientLight intensity={0.7} />
                 <directionalLight castShadow position={[4, 6, 5]} intensity={1.1} />

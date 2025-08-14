@@ -117,7 +117,7 @@ export default function Home() {
 					</div>
 				</div>
 						</div>
-						<div className="relative -mt-6 sm:-mt-8">
+						<div className="relative -mt-6 sm:-mt-8 flex justify-center">
 							<Hero3D />
 							<div className="absolute -bottom-5 left-0 right-0 flex justify-center">
 								<div className="inline-flex items-center px-4 py-2 bg-white dark:bg-slate-800 rounded-full shadow-md text-xs font-mono">

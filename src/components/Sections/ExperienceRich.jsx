@@ -105,19 +105,19 @@ export default function ExperienceRich() {
                 </div>
 
                 <div ref={timelineRef} className="relative">
-                    <div className="absolute left-1/2 -translate-x-1/2 w-1 h-full timeline-accent" />
+                    <div className="absolute left-1/2 -translate-x-1/2 w-1 h-full timeline-accent hidden md:block" />
 
                     <div className="space-y-12">
                         {experiences.map((exp, index) => (
                             <div
                                 key={exp.company}
-                                className={`timeline-item relative flex items-center ${
-                                    index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'
+                                className={`timeline-item relative flex items-center flex-col ${
+                                    index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
                                 }`}
                             >
-                                <div className="absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-brand-600 rounded-full border-4 border-white z-10" />
+                                <div className="absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-brand-600 rounded-full border-4 border-white z-10 hidden md:block" />
 
-                                <div className={`w-5/12 ${index % 2 === 0 ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
+                                <div className={`w-full md:w-5/12 ${index % 2 === 0 ? 'md:pr-8 md:text-right' : 'md:pl-8 md:text-left'}`}>
                                     <div className="p-6 rounded-2xl shadow-lg hover:shadow-xl transition-transform duration-300 hover:scale-105 bg-gradient-to-br from-brand-50 to-white text-black dark:from-slate-950 dark:to-black dark:text-white">
                                         <div className="mb-4">
                                             <h3 className="text-xl font-bold mb-2">{exp.position}</h3>
